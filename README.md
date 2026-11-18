@@ -21,4 +21,4 @@ An endless obstacle-avoidance racing game for Android (Kotlin).
 - `MainActivity.kt` – builds the grid, runs the game loop with a `Handler` (pauses in `onPause`), and renders the state.
 
 ## Demo video
-_Add link here_
+[▶ Watch the gameplay video](demo/gameplay.mp4)

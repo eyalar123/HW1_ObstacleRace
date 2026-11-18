@@ -4,6 +4,9 @@
     <string name="move_left">Move left</string>
     <string name="move_right">Move right</string>
     <string name="distance_format">%1$d m</string>
-    <string name="crash_message">Crash! %1$d lives left</string>
+    <plurals name="crash_message">
+        <item quantity="one">Crash! %1$d life left</item>
+        <item quantity="other">Crash! %1$d lives left</item>
+    </plurals>
     <string name="game_over_message">Game over! Starting again with 3 lives</string>
 </resources>

@@ -156,7 +156,7 @@ class MainActivity : AppCompatActivity() {
         when (result) {
             TickResult.NONE -> Unit
             TickResult.CRASH -> {
-                signalManager.toast(getString(R.string.crash_message, gameManager.lives))
+                signalManager.toast(resources.getQuantityString(R.plurals.crash_message, gameManager.lives, gameManager.lives))
                 signalManager.vibrate()
             }
             TickResult.GAME_OVER -> {
