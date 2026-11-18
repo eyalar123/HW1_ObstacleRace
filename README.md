@@ -2,6 +2,10 @@
 
 **Author:** Eyal Kalmanovich
 
+## 🎬 Gameplay video
+
+https://github.com/user-attachments/assets/69942aa8-1f3e-4a5b-b30a-6618fd288b33
+
 An endless obstacle-avoidance racing game for Android (Kotlin).
 
 ## Features
@@ -21,4 +25,4 @@ An endless obstacle-avoidance racing game for Android (Kotlin).
 - `MainActivity.kt` – builds the grid, runs the game loop with a `Handler` (pauses in `onPause`), and renders the state.
 
 ## Demo video
-[▶ Watch the gameplay video](demo/gameplay.mp4)
+The video plays at the top of this page. It's also included in the repo: [demo/gameplay.mp4](demo/gameplay.mp4) (download).
