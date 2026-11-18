@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Red race car, top view, facing up -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="64dp"
+    android:viewportWidth="40"
+    android:viewportHeight="64">
+    <!-- wheels -->
+    <path android:fillColor="#FF212121" android:pathData="M3,10h7v13h-7z" />
+    <path android:fillColor="#FF212121" android:pathData="M30,10h7v13h-7z" />
+    <path android:fillColor="#FF212121" android:pathData="M2,42h8v15h-8z" />
+    <path android:fillColor="#FF212121" android:pathData="M30,42h8v15h-8z" />
+    <!-- front wing -->
+    <path android:fillColor="#FFE53935" android:pathData="M6,4h28v5h-28z" />
+    <!-- body -->
+    <path
+        android:fillColor="#FFE53935"
+        android:pathData="M16,6 L24,6 L27,20 L31,30 L31,56 L9,56 L9,30 L13,20 Z" />
+    <!-- rear wing -->
+    <path android:fillColor="#FFB71C1C" android:pathData="M5,56h30v6h-30z" />
+    <!-- cockpit -->
+    <path android:fillColor="#FF263238" android:pathData="M20,28m-5,0a5,6 0,1 1,10 0a5,6 0,1 1,-10 0" />
+    <!-- stripe -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M19,8h2v14h-2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M19,36h2v18h-2z" />
+</vector>

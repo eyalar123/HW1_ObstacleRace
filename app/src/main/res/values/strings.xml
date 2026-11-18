@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Obstacle Race</string>
+    <string name="author">Eyal Kalmanovich</string>
+    <string name="move_left">Move left</string>
+    <string name="move_right">Move right</string>
+    <string name="distance_format">%1$d m</string>
+    <string name="crash_message">Crash! %1$d lives left</string>
+    <string name="game_over_message">Game over! Starting again with 3 lives</string>
+</resources>

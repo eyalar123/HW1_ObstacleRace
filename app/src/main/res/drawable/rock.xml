@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gray stone block (isometric cube) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- top -->
+    <path
+        android:fillColor="#FFB4B4B4"
+        android:strokeColor="#FF6E6E6E"
+        android:strokeWidth="1.5"
+        android:pathData="M32,6 L56,18 L32,30 L8,18 Z" />
+    <!-- left -->
+    <path
+        android:fillColor="#FF8C8C8C"
+        android:strokeColor="#FF6E6E6E"
+        android:strokeWidth="1.5"
+        android:pathData="M8,18 L32,30 L32,58 L8,46 Z" />
+    <!-- right -->
+    <path
+        android:fillColor="#FF9E9E9E"
+        android:strokeColor="#FF6E6E6E"
+        android:strokeWidth="1.5"
+        android:pathData="M56,18 L32,30 L32,58 L56,46 Z" />
+    <!-- cracks / texture -->
+    <path
+        android:strokeColor="#FF6E6E6E"
+        android:strokeWidth="1"
+        android:pathData="M14,30 L20,33 M42,40 L50,36 M26,14 L34,16 M44,24 L48,30" />
+</vector>
